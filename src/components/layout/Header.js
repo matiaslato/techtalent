@@ -13,22 +13,22 @@ const Header = () => (
         Lander
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
+        <AnchorLink className="py-3 px-3 mx-1 md-py-3 md-px-8 bg-primary hover:bg-primary-darker hover:text-white rounded-full text-white" href="#features">
           Features
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+        <AnchorLink className="py-3 px-3 mx-1 md-py-3 md-px-8 bg-primary hover:bg-primary-darker hover:text-white rounded-full text-white" href="#services">
           Services
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        {/* <AnchorLink className="py-3 px-3 mx-1 md-py-3 md-px-8 bg-primary hover:bg-primary-darker hover:text-white rounded-full text-white" href="#stats">
           Stats
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        </AnchorLink> */}
+        <AnchorLink className="py-3 px-3 mx-1 md-py-3 md-px-8 bg-primary hover:bg-primary-darker hover:text-white rounded-full text-white" href="#testimonials">
+          Contact Us
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
+      {/* <div className="hidden md:block">
         <Button className="text-sm">Start Free Trial</Button>
-      </div>
+      </div> */}
     </div>
   </header>
 );
